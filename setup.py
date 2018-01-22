@@ -8,13 +8,13 @@ def read(fname):
 
 setup(
     name = "Django-MobilityHelpers",
-    version = "0.2.0",
+    version = "0.3.0",
     author = "Thomas Weholt",
     author_email = "thomas@weholt.org",
     description = ("Simple middleware and helper function to help handle request from mobile devices."),
     license = "Modified BSD",
     keywords = "django middleware mobile devices",
-    url = "https://bitbucket.org/weholt/django-mobilityhelpers",
+    url = "https://github.com/weholt/django-mobilityhelpers",
     install_requires = ['django',],
     zip_safe = False,
     classifiers=[

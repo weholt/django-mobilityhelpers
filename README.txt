@@ -2,7 +2,7 @@
 Mobility Helpers
 ================
 
-Version : 0.2
+Version : 0.3
 Author : Thomas Weholt <thomas@weholt.org>
 License : Modified BSD
 WWW : https://bitbucket.org/weholt/django-mobilityhelpers
@@ -40,6 +40,8 @@ Configuration options
 
 Changelog
 ---------
+
+0.3.0 - Django 2.0 support
 
 0.2.0 - Python 3.x support.
 

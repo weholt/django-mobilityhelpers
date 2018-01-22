@@ -1,12 +1,12 @@
 # Credits: http://djangosnippets.org/snippets/2001/
 import re
 from mobilityhelpers import detect_flavour, disable_helper
+from django.utils.deprecation import MiddlewareMixin
 
 
-class MobileDetectionMiddleware(object):
+class MobileDetectionMiddleware(MiddlewareMixin):
     """
-    Useful middleware to detect if the user is
-    on a mobile device.
+
     """
 
     def process_request(self, request):
